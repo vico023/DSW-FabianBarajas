@@ -1,0 +1,25 @@
+/* estilo relacionado con el autor*/
+#pfoto{
+    padding : 100px; 
+    margin  : 10px; 
+    border  : 1px solid black;
+    float  : left; 
+    width  : 80px;
+    height: 80px;
+}
+img {
+    filter: drop-shadow(0 0 5px blue); /* sombrear imageness */ 
+  }
+img {
+    image-rendering: crisp-edges; /* crisp-edges y pixelated. */
+  }
+#ptitulo{
+    text-align : left;
+    font-family: serif;
+    color      :#1B1A17;
+}
+#pautor{
+    text-align : left;
+    font-family: serif;
+    color      :#1B1A17;
+}
