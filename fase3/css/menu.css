@@ -1,0 +1,57 @@
+#menu li{
+    display:inline-block; 
+}
+#menu li ul{	                      /*Permite que el sub menú este dentro del menú*/
+    position: absolute;         
+    left: -300px; 		            /*Para que se esconda el submenú*/
+    width: 150px;  		           /*Ancho aproximado del submenú*/
+    margin: 0px;  		          /*El sub menú no se mueva mucho arriba o abajo  */
+    padding: 0px;  		         /*El sub menú no se mueva mucho a la derecha o izquierda*/
+}
+#menu li:hover ul,ul{
+    left:auto;				              /*Mostrar submenú al pasar el mouse*/ 
+}
+#padre{			                        /*Barra exterior*/
+    text-align: center;
+    width: 100%;			           /*Ancho de la barra, puedes darle un tamaño exacto o dejarlo al 100% */
+    background:#C8E3D4;		        /*Color de fondo*/
+    position:relative;		         /*Puedes usar relative o absolute*/
+    border: 2px solid #C8E3D4;	      /*Borde*/
+}
+#hijo{				                     /*Bloque interior */
+    width:1200px;				        /*Ancho del bloque, puedes darle un tamaño exacto o dejarlo al 100%*/
+    border: 2px solid #C8E3D4;	     /*Borde*/
+}
+#menu{
+    background:#C8E3D4;	  		/*Color de fondo del bloque interior*/
+    margin: 0px;		   		 
+    padding: 0px;				
+}
+#menu li a,#menu li a:link,#menu li a:visited{
+    font: bold 16px Arial;		                       /*Fuente*/
+    color: black;				                    /*Color del texto */	
+    display: block;				                     /*Mostrar como bloques*/
+    margin:0px;				                        
+    padding: 10px 15px 10px 15px;	       /*Para que no se mueva el texto del menú al pasar el mouse*/
+}
+#menu li a:hover,#menu li a:active{
+    color:#F6EABE;			                  /*Cambia el color de las letras al pasar el mouse*/
+    margin:0px;			                   
+    padding: 10px 15px 10px 15px;         /*Para que no se mueva el texto del menú al pasar el mouse*/
+    background:#506D84;		           /*Color del fondo del menú al pasar el mouse */
+}
+#menu li li a,#menu li li a:link,#menu li li a:visited{
+    font: bold 16px Arial;	                                 /*Fuente del submenú*/
+    color: white;			                              /*Color del texto del submenú*/
+    width: 150px;			                               /*Ancho del submenú*/
+    background: #11324D; 		                            /*Color de fondo del submenú*/
+    margin:0px;			
+}
+#menu li li a:hover,#menu li li a:active{
+    color: black;			                     /*Color de fondo del submenú al pasar el mouse*/
+    background: #E2C2B9;		                    /*Color de texto del submenú al pasar el mouse*/
+}
+a {
+    text-decoration:none;                       /*Quitar el subrayado del texto*/
+} 
+     
