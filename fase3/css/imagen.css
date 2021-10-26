@@ -1,0 +1,31 @@
+#foto{
+    padding : 10px; 
+    margin  : 10px; 
+    border  : 1px solid black;
+    float  : left; 
+    width  : 250px;
+}
+img {
+    filter: drop-shadow(0 0 5px blue); /* sombrear imageness */ 
+  }
+img {
+    image-rendering: crisp-edges; /* crisp-edges y pixelated. */
+  }
+#titulo{
+    text-align : center;
+    font-family: serif;
+    color      :#1B1A17;
+}
+#parrafo{
+    text-align : left;
+    font-family: serif;
+    color      :rgb(5, 5, 5);
+    line-height: 2.0;
+}
+#parrafo{
+    padding : 10px; 
+    margin  : 5px; 
+    border  : 2px solid #30475E;
+    float   : center; 
+     
+}
