@@ -26,3 +26,9 @@ audio{
     -webkit-border-radius:7px 7px 7px 7px ;
     border-radius:7px 7px 7px 7px ;
 }
+#imagen{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
