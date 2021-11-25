@@ -1,0 +1,13 @@
+
+.centro
+{
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+#centro
+{
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
