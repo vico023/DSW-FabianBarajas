@@ -1,0 +1,25 @@
+body{
+    background-color: #C8E3D4;
+}
+.cabecera{
+    text-align: center;
+    background-color: #87AAAA;
+}
+nav{
+    background-color: greenyellow;
+}
+section{
+    background-color: #87AAAA;
+    grid-column: 1/4;
+}
+aside{
+    background-color: indigo;
+    grid-column: 4/5;
+}
+footer{
+    background-color: #C8E3D4;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
